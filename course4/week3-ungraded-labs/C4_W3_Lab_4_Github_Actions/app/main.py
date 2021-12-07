@@ -5,7 +5,8 @@ from fastapi import FastAPI
 from pydantic import BaseModel, conlist
 
 
-
+# To run the unit test using the CI/CD pipeline you need to push some changes to the remote repository.
+# To do this, add a comment somewhere in the main.py file and save the changes
 app = FastAPI(title="Predicting Wine Class with batching")
 
 # Open classifier in global scope
